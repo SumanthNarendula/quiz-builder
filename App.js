@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -10,7 +10,7 @@ import QuizTypesPage from "./pages/QuizTypesPage";
 import MultipleChoiceBuilder from "./pages/MultipleChoiceBuilder";
 import TakeTestPage from "./pages/TakeTestPage";
 import TakeQuiz from "./components/TakeQuiz";
-import ForgotPasswordPage from "./pages/ForgotPasswordPage"; // ✅ Import added
+import ForgotPasswordPage from "./pages/ForgotPasswordPage"; 
 import './App.css';
 
 function App() {
